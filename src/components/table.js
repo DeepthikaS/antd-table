@@ -11,7 +11,7 @@ class Tables extends React.Component{
             data:[
                 {
                   key:1,
-                  team: 'DELHI CAPITALS' ,
+                  team: ' DELHI CAPITALS' ,
                   team_logo:'https://ssl.gstatic.com/onebox/media/sports/logos/TjudW-BaNE2HcD_6cOWC7Q_48x48.png',
                   matches:8,
                   won:6,
@@ -31,7 +31,7 @@ class Tables extends React.Component{
                 },
                 {
                   key:3,
-                  team: 'ROYAL CHALLENGERS BANGALORE' ,
+                  team: ' ROYAL CHALLENGERS BANGALORE' ,
                   team_logo:"https://ssl.gstatic.com/onebox/media/sports/logos/f958HPOsI1ugsHmwc4piCw_48x48.png",
                   matches:7,
                   won:5,
@@ -81,7 +81,7 @@ class Tables extends React.Component{
                 },
                 {
                   key:8,
-                  team: 'SUN RISERS HYDERABAD' ,
+                  team: 'SUNRISERS HYDERABAD' ,
                   team_logo:"https://ssl.gstatic.com/onebox/media/sports/logos/G9q07ZXPVbPkXOagStz3Yw_48x48.png",
                   matches:7,
                   won:1,
@@ -93,7 +93,7 @@ class Tables extends React.Component{
             
               columns:[
                 {
-                  title:<div ><b>TEAM</b></div>,
+                  title:<div style={{color:"teal"}}><b>TEAM</b></div>,
                   dataIndex:'team',
                   key:'key',
                   render:(text,team)=>{
@@ -102,7 +102,7 @@ class Tables extends React.Component{
                   
                 },
                 {
-                  title:<div ><b>MATCHES</b></div>,
+                  title:<div style={{color:"blue"}}><b>MATCHES</b></div>,
                   dataIndex:'matches',
                   key:'key',
                   render:(text)=>{
@@ -110,7 +110,7 @@ class Tables extends React.Component{
                   }
                 },
                 {
-                  title:<div ><b>WON</b></div>,
+                  title:<div style={{color:"green"}}><b>WON</b></div>,
                   dataIndex:'won',
                   key:'key',
                   render:(text)=>{
@@ -118,7 +118,7 @@ class Tables extends React.Component{
                   }
                 },
                 {
-                  title:<div ><b>LOST</b></div>,
+                  title:<div style={{color:"red"}}><b>LOST</b></div>,
                   dataIndex:'lost',
                   key:'key',
                   render:(text)=>{
@@ -126,7 +126,7 @@ class Tables extends React.Component{
                   }
                 },
                 {
-                  title:<div><b>NET RUN RATE</b></div>,
+                  title:<div style={{color:"orange"}}><b>NET RUN RATE</b></div>,
                   dataIndex:'nrr',
                   key:'key',
                   render:(text)=>{
@@ -134,7 +134,7 @@ class Tables extends React.Component{
                   }
                 },
                 {
-                  title:<div><b>POINTS</b></div>,
+                  title:<div style={{color:"teal"}}><b>POINTS</b></div>,
                   dataIndex:'pts',
                   key:'key',
                   sorter: (a, b) => a.pts - b.pts,

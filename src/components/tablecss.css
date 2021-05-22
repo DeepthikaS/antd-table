@@ -6,7 +6,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:100vh;
+  min-height:100%;
 }
 
 table{
@@ -20,6 +20,7 @@ table{
 /*     width: 60%; */
     margin: auto;
     margin-top: 5%;
+    margin-bottom:5%;
 }
 
 /* @media (max-width: 900px){

@@ -1,30 +1,28 @@
 
-body{
+/* body{
     background-image: url(https://resources.pulse.icc-cricket.com/ICC/photo/2017/01/30/44780aa2-2b6d-4048-897c-6606762b3d38/GettyImages-463485384_Cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* height: max-content; */
+    height: max-content;
+} */
+html { 
+  background: url(https://resources.pulse.icc-cricket.com/ICC/photo/2017/01/30/44780aa2-2b6d-4048-897c-6606762b3d38/GettyImages-463485384_Cropped.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 table{
     background-color:teal;
-    /* background-image: url(https://media.istockphoto.com/photos/grass-field-ground-top-view-picture-id1192236248?k=6&m=1192236248&s=612x612&w=0&h=6jInQZikAcAzIUKeZoy-OB8-fwc2Z2q-zCW4gJ1x2pI=);
-    background-repeat: no-repeat;
-    background-size: cover; */
     box-shadow: 0px 0px 2px 2px;
     border: white;
-    /* color:whitesmoke; */
+  
 }
 
-.ant-table-tbody > tr.ant-table-row-level-1:hover > td {
-    background: unset;
-  }
-
-
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 60%;
+.container{
+/*     width: 60%; */
     margin: auto;
     margin-top: 5%;
 }
